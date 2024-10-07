@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E135FC042CB3729E0006457C /* MobileDev_NiceBabiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135FC032CB3729E0006457C /* MobileDev_NiceBabiesApp.swift */; };
-		E135FC062CB3729E0006457C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135FC052CB3729E0006457C /* ContentView.swift */; };
-		E135FC082CB372A00006457C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E135FC072CB372A00006457C /* Assets.xcassets */; };
-		E135FC0B2CB372A00006457C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E135FC0A2CB372A00006457C /* Preview Assets.xcassets */; };
+		E135FC122CB373300006457C /* NiceBabies in Resources */ = {isa = PBXBuildFile; fileRef = E135FC112CB373300006457C /* NiceBabies */; };
+		E135FC142CB373370006457C /* WorkOutGame in Resources */ = {isa = PBXBuildFile; fileRef = E135FC132CB373370006457C /* WorkOutGame */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E135FC002CB3729E0006457C /* MobileDev_NiceBabies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDev_NiceBabies.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E135FC032CB3729E0006457C /* MobileDev_NiceBabiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDev_NiceBabiesApp.swift; sourceTree = "<group>"; };
-		E135FC052CB3729E0006457C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E135FC072CB372A00006457C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E135FC0A2CB372A00006457C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E135FC112CB373300006457C /* NiceBabies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NiceBabies; sourceTree = "<group>"; };
+		E135FC132CB373370006457C /* WorkOutGame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorkOutGame; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +31,8 @@
 		E135FBF72CB3729E0006457C = {
 			isa = PBXGroup;
 			children = (
-				E135FC022CB3729E0006457C /* MobileDev_NiceBabies */,
+				E135FC132CB373370006457C /* WorkOutGame */,
+				E135FC112CB373300006457C /* NiceBabies */,
 				E135FC012CB3729E0006457C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +43,6 @@
 				E135FC002CB3729E0006457C /* MobileDev_NiceBabies.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E135FC022CB3729E0006457C /* MobileDev_NiceBabies */ = {
-			isa = PBXGroup;
-			children = (
-				E135FC032CB3729E0006457C /* MobileDev_NiceBabiesApp.swift */,
-				E135FC052CB3729E0006457C /* ContentView.swift */,
-				E135FC072CB372A00006457C /* Assets.xcassets */,
-				E135FC092CB372A00006457C /* Preview Content */,
-			);
-			path = MobileDev_NiceBabies;
-			sourceTree = "<group>";
-		};
-		E135FC092CB372A00006457C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E135FC0A2CB372A00006457C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +103,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E135FC0B2CB372A00006457C /* Preview Assets.xcassets in Resources */,
-				E135FC082CB372A00006457C /* Assets.xcassets in Resources */,
+				E135FC142CB373370006457C /* WorkOutGame in Resources */,
+				E135FC122CB373300006457C /* NiceBabies in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E135FC062CB3729E0006457C /* ContentView.swift in Sources */,
-				E135FC042CB3729E0006457C /* MobileDev_NiceBabiesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
